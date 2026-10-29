@@ -1,0 +1,8 @@
+# Safety net: never commit credentials or machine state
+.credentials.json
+*.local.json
+.env*
+history.jsonl
+sessions/
+projects/
+.DS_Store
