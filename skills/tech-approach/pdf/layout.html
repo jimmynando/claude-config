@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>{{client}}: technical approach</title>
+<style>
+  body { font-family: Carlito, Calibri, "Liberation Sans", Arial, sans-serif; font-size: 10pt; color: #262626; }
+  h1, h2, h3 { font-family: Carlito, Calibri, "Liberation Sans", Arial, sans-serif; }
+  h1 { font-size: 21pt; margin: 0 0 2pt 0; color: #262626; }
+  /* LibreOffice misreads the margin shorthand on bordered headings, so each side is spelled out. */
+  h2 { font-size: 14pt; color: #cc1414; margin-top: 16pt; margin-bottom: 6pt; margin-left: 0; margin-right: 0; padding: 0 0 2pt 0; border-bottom: 1.5px solid #cc1414; }
+  h3 { font-size: 12pt; color: #cc1414; margin-top: 12pt; margin-bottom: 4pt; margin-left: 0; margin-right: 0; padding: 0 0 2pt 0; border-bottom: 1px solid #c8ced6; }
+  p { margin: 0 0 5pt 0; line-height: 140%; }
+  .meta { color: #616e7c; font-size: 9pt; }
+  table { border-collapse: collapse; width: 100%; }
+  td, th { font-family: Carlito, Calibri, "Liberation Sans", Arial, sans-serif; font-size: 9.5pt; vertical-align: top; padding: 4pt 6pt; border-bottom: 1px solid #dde2e8; text-align: left; }
+  th { background: #cc1414; color: #ffffff; }
+  td.label { background: #f3f5f8; color: #cc1414; font-weight: bold; width: 26%; }
+  .callout td { background: #fdf0f0; border-left: 3px solid #cc1414; border-bottom: none; font-size: 10pt; padding: 8pt 10pt; }
+  .quote { font-style: italic; }
+  ol li, ul li { margin-bottom: 4pt; line-height: 140%; }
+</style>
+</head>
+<body>
+<div title="header"><p style="font-family: Carlito, Calibri, sans-serif; font-size: 7.5pt; color: #7a7a7a; border-bottom: 1px solid #cc1414; padding-bottom: 2pt; margin: 0;">{{brand}} | {{program}} | {{client}} — Technical approach v{{version}} | {{year}} | INTERNAL</p></div>
+<div title="footer"><p style="font-family: Carlito, Calibri, sans-serif; font-size: 7.5pt; color: #7a7a7a; border-top: 1px solid #c8ced6; padding-top: 3pt; margin: 0;">INTERNAL — {{brand}}</p><p align="right" style="font-family: Carlito, Calibri, sans-serif; font-size: 7.5pt; color: #7a7a7a; margin: 0;"><sdfield type=PAGE subtype=RANDOM format=PAGE>1</sdfield></p></div>
+{{body}}
+</body>
+</html>

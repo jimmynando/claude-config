@@ -10,6 +10,8 @@ My personal Claude Code setup: the global instructions, skills and agents I use 
 | `skills/<name>/SKILL.md` | Workflows I run with `/<name>` | `~/.claude/skills/<name>` |
 | `agents/<name>.md` | Specialist subagents | `~/.claude/agents/<name>.md` |
 
+A skill can carry its own helper files next to `SKILL.md`. For example, `skills/tech-approach/pdf/` holds the red SENAI-SP layout and the script that builds versioned client PDFs (needs LibreOffice, the Carlito font and poppler-utils).
+
 Project-specific setup (stack, commands, conventions) does **not** go here. It lives in each repo's own `CLAUDE.md` and `.claude/`.
 
 ## Setup on a new machine
